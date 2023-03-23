@@ -43,6 +43,7 @@ for (let i = 0; i < posts.length; i++) {
             <h4>${posts[i].name}</h4>
             ${posts[i].location}
           </div>
+          <img src="images/threedots.png" alt="" class="threedots" />
         </div>
         <img src=${posts[i].post} class="post-img" />
         <div class="icons-container">

@@ -40,6 +40,12 @@ header {
   height: 22px;
   padding: 10px 10px 0px 10px;
 }
+.threedots {
+  padding: 18px 10px 0px 10px;
+  width: 20px;
+  height: 20px;
+  margin-left: auto;
+}
 .likes-container {
   margin: 10px 0px 20px 10px;
 }
@@ -49,4 +55,21 @@ header {
 }
 .post-wrapper {
   border-bottom: 30px solid #ededed;
+}
+.story {
+  margin: 0px 10px;
+  padding: 2px;
+  background: linear-gradient(white, white) padding-box,
+    linear-gradient(
+        to right,
+        #fdf497,
+        #f09433,
+        #dc2743,
+        #cc2366,
+        #bc1888,
+        #d6249f
+      )
+      border-box;
+
+  border: 2px solid transparent;
 }
