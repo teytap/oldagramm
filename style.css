@@ -57,6 +57,10 @@ header {
   border-bottom: 30px solid #ededed;
 }
 .story {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+
   margin: 0px 10px;
   padding: 2px;
   background: linear-gradient(white, white) padding-box,
@@ -71,5 +75,5 @@ header {
       )
       border-box;
 
-  border: 2px solid transparent;
+  border: 3px solid transparent;
 }
